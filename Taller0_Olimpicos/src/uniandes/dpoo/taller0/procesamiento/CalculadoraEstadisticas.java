@@ -455,7 +455,10 @@ public class CalculadoraEstadisticas
 		if (elAtleta != null)
 		{
 			resultado = elAtleta.darPais();
+		} else {
+			resultado = null;
 		}
+			
 		return resultado;
 	}
 
